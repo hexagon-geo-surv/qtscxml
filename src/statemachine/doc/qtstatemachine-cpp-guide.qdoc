@@ -276,7 +276,7 @@
   \section1 Events, Transitions and Guards
 
   A QStateMachine runs its own event loop. For signal transitions
-  (QSignalTransition objects), QStateMachine automatically posts a
+  (\l[CPP]{QSignalTransition} objects), QStateMachine automatically posts a
   QStateMachine::SignalEvent to itself when it intercepts the corresponding
   signal; similarly, for QObject event transitions (QEventTransition objects)
   a QStateMachine::WrappedEvent is posted.
@@ -379,7 +379,7 @@
   QPropertyAnimation.
 
   We can associate one or more animations to a transition between states
-  using a QSignalTransition or QEventTransition class. These classes
+  using a \l[CPP]{QSignalTransition} or QEventTransition class. These classes
   are both derived from QAbstractTransition, which defines the
   convenience function \l [CPP] {QAbstractTransition::}{addAnimation()} that
   enables the appending of one or more animations triggered when the
