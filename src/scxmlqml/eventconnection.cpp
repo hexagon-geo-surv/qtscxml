@@ -8,7 +8,7 @@ QT_BEGIN_NAMESPACE
 
 /*!
     \qmltype EventConnection
-//!    \nativetype QScxmlEventConnection
+    \nativetype QScxmlEventConnection
     \inqmlmodule QtScxml
     \since QtScxml 5.8
 

@@ -9,7 +9,7 @@ QT_BEGIN_NAMESPACE
 
 /*!
     \qmltype InvokedServices
-//!    \nativetype QScxmlInvokedServices
+    \nativetype QScxmlInvokedServices
     \inqmlmodule QtScxml
     \since QtScxml 5.8
 
